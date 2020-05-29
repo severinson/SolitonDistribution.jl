@@ -1,6 +1,6 @@
-# SolitonDistribution
+# SolitonDistribution.jl
 
-A package implementing the [Robust Soliton
+The [Robust Soliton
 Distribution](https://en.wikipedia.org/wiki/Soliton_distribution) in
 Julia.
 
