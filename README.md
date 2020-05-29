@@ -5,11 +5,12 @@ Distribution](https://en.wikipedia.org/wiki/Soliton_distribution) in
 Julia.
 
 ``` julia
-using Pkg
-Pkg.add("StatsBase") # params
-Pkg.add("Statistics") # quantile
-Pkg.add("Distributions") # pdf, cdf
-Pkg.add("https://github.com/severinson/SolitonDistribution")
+] # enter package management mode
+add StatsBase # params
+add Statistics # quantile
+add Distributions # pdf, cdf
+add https://github.com/severinson/SolitonDistribution
+# backspace to exit package management
 using SolitonDistribution
 D = Soliton(600, 40, 1e-6)
 pdf(D, 40) # evaluate the pdf at 40
