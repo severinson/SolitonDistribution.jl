@@ -1,0 +1,13 @@
+name = "SolitonDistribution"
+uuid = "911e4c9e-1671-4ab5-b1b9-df3b860501e9"
+authors = ["Albin Severinson <albin@severinson.org> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
