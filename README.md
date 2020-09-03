@@ -1,8 +1,8 @@
 # SolitonDistribution.jl
 
-The [Robust Soliton
-Distribution](https://en.wikipedia.org/wiki/Soliton_distribution) in
-Julia.
+This repository is archived since the functionality was merged into [Distributions.jl](https://github.com/JuliaStats/Distributions.jl).
+
+The [Robust Soliton Distribution](https://en.wikipedia.org/wiki/Soliton_distribution) in Julia.
 
 ``` julia
 ] # enter package management mode
